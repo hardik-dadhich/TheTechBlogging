@@ -1,0 +1,60 @@
+.techfont{
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.bigbrand{
+    font-size: 1.5em;
+
+}
+
+.centerstage{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.save{
+
+}
+
+.postdate{
+    text-align: center;
+}
+.posttitle{
+    font-family: 'Andale Mono',sans-serif;
+     font-size: 3em;
+    text-align: center;
+
+}
+
+.postcontent{
+    font-family: 'sans-serif';
+    font-size: 1.5em;
+
+}
+
+.btn-comment{
+    position: absolute;
+    right:0px;
+}
+
+#aboutpageofMe{
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: antiquewhite;
+
+}
+
+.postdetails{
+    font-family: Magneto, sans-serif;
+    font-size: medium;
+    /*color: darkgoldenrod;*/
+    align-content: center;
+}
+
+.basic{
+   background-color: cornsilk;
+}

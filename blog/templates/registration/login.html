@@ -1,0 +1,22 @@
+{% extends 'blog/base.html' %}
+{% load bootstrap3 %}
+{% block title_block %}login here {% endblock %}
+{% block body_content %}
+    <div class="jumbotron">
+        <h2>Please login here for blog on site!</h2>
+        {% if form.error %}
+            <p>Your password and usename didn't match! Please Try again !</p>
+
+          {% else %}
+        <form action="{% url 'login' %}" method="post">
+            {% csrf_token %}
+            {%   bootstrap_form form  %}
+
+            <input type="submit" class="btn btn-primary" value="login" style="width: 100px">
+            <input type="hidden" name="next" value="{{ next }}">
+
+        </form>
+       {% endif %}
+
+    </div>
+{% endblock %}

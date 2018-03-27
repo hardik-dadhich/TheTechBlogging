@@ -1,0 +1,64 @@
+{% extends 'blog/base.html' %}
+{% block title_block %}About Me{% endblock %}
+{% load staticfiles %}
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'css/about_css.css' %}">
+<link rel="script" href="{% static 'js/about_js.js' %}">
+{% block body_content %}
+
+    {#    <div class="aboutpageofMe">#}
+    {#       <section class="text-center">#}
+    {#           HEY I AM HARDIK. YOUR BLOGGER AND CREATER#}
+    {#           <div class="col-lg-6 col-sm-12" >#}
+    {#               <p id="aboutMe">#}
+    {#                   i am content writer and Django web developer!#}
+    {##}
+    {#               </p>#}
+    {##}
+    {#           </div>#}
+    {##}
+    {#       </section>#}
+    {#    </div>#}
+
+
+    <div class="page-header">
+        <h1>Myself Hardik !
+            <small>Creator | blogger | designer | developer</small>
+        </h1>
+
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="well well-lg">
+                <q>Life isn't about finding yourself.Life is about creating yourself.</q>
+
+            </div>
+        </div>
+        <div class="row">
+            <section>
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="{% static 'image/myimage.jpg' %}" alt="My image here">
+                    </a>
+                </div>
+            </section>
+            <section>
+                <p>Meet me, I am hardik as my name indicates that I believe in joys and do work by heart with enjoys!
+                    the purpose of creating this website to accomplished knowledge by group what ever you want to share
+                    with us! you can comment and post any topic.
+                    <strong>see you in another blog !</strong>
+                </p>
+                <p id="aboutpageofMe">
+                    <strong>For contact me!</strong>
+                <h3>call on : 9602051867</h3>
+                <h3>mail at : dadhichhardik26@gmail.com</h3>
+
+                </p>
+            </section>
+        </div>
+    </div>
+
+{% endblock %}
