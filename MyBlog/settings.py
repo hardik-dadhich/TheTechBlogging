@@ -21,7 +21,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'blog/templates/blog')
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = '4f_@@o=!q150&9-kvr#9qww8%$y2v8mzs6tsn4x+3kq4e0mg-@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
